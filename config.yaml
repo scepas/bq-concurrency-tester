@@ -1,4 +1,5 @@
 project_id: "santi-demos"
+location: "US"
 concurrency: 20
 duration_seconds: 60
 queries:
