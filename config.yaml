@@ -1,0 +1,10 @@
+project_id: "santi-demos"
+concurrency: 20
+duration_seconds: 60
+queries:
+  - sql_file: "queries/query1.sql"
+    percentage: 60
+  - sql_file: "queries/query2.sql"
+    percentage: 30
+  - sql_file: "queries/query3.sql"
+    percentage: 10
